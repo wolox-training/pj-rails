@@ -44,12 +44,15 @@ GEM
     ast (2.4.0)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     bcrypt (3.1.11)
 =======
 >>>>>>> 1f674a3... Added rubocop to project
 =======
     bcrypt (3.1.11)
 >>>>>>> 7bcf9a1... Devise implemented
+=======
+>>>>>>> 1f674a3... Added rubocop to project
     bindex (0.5.0)
     builder (3.2.3)
     byebug (10.0.1)
@@ -111,6 +114,7 @@ GEM
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     orm_adapter (0.5.0)
 =======
 >>>>>>> 1f674a3... Added rubocop to project
@@ -122,6 +126,8 @@ GEM
 >>>>>>> 9a9b2e1... implemeneted devise-token-auth
     orm_adapter (0.5.0)
 >>>>>>> 7bcf9a1... Devise implemented
+=======
+>>>>>>> 1f674a3... Added rubocop to project
     parallel (1.12.1)
     parser (2.5.0.5)
       ast (~> 2.4.0)
@@ -162,6 +168,7 @@ GEM
       ffi (>= 0.5.0, < 2)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     responders (2.4.0)
       actionpack (>= 4.2.0, < 5.3)
       railties (>= 4.2.0, < 5.3)
@@ -172,6 +179,8 @@ GEM
       actionpack (>= 4.2.0, < 5.3)
       railties (>= 4.2.0, < 5.3)
 >>>>>>> 7bcf9a1... Devise implemented
+=======
+>>>>>>> 1f674a3... Added rubocop to project
     rubocop (0.54.0)
       parallel (~> 1.10)
       parser (>= 2.5)
@@ -221,6 +230,7 @@ GEM
     unicode-display_width (1.3.0)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     warden (1.2.7)
       rack (>= 1.0)
 =======
@@ -229,6 +239,8 @@ GEM
     warden (1.2.7)
       rack (>= 1.0)
 >>>>>>> 7bcf9a1... Devise implemented
+=======
+>>>>>>> 1f674a3... Added rubocop to project
     web-console (3.5.1)
       actionview (>= 5.0)
       activemodel (>= 5.0)

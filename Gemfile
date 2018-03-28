@@ -35,6 +35,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'rubocop', '~> 0.54.0', require: false
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 gem 'devise'
 <<<<<<< HEAD
 =======
@@ -46,6 +47,8 @@ gem 'devise'
 gem 'devise_token_auth'
 gem 'omniauth'
 >>>>>>> 9a9b2e1... implemeneted devise-token-auth
+=======
+>>>>>>> 1f674a3... Added rubocop to project
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
