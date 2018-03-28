@@ -33,11 +33,14 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem 'rubocop', '~> 0.54.0', require: false
+<<<<<<< HEAD
 gem 'devise'
 gem 'devise_token_auth'
 gem 'omniauth'
 gem 'devise'
 gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
+=======
+>>>>>>> 1f674a3... Added rubocop to project
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
