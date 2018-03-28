@@ -22,3 +22,5 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+[![Build Status](https://travis-ci.org/wolox-training/pj-rails.svg?branch=master)](https://travis-ci.org/wolox-training/pj-rails)
