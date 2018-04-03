@@ -1,5 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# frozen_string_literal: true
+
+>>>>>>> 7bcf9a1... Devise implemented
 =======
 # frozen_string_literal: true
 
@@ -16,8 +21,13 @@ class DeviseCreateUsers < ActiveRecord::Migration[5.1]
       t.string :encrypted_password, null: false, default: ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       t.string :first_name,         null:false
       t.string :last_name,          null: false
+=======
+      t.string :first_name,         null:false, default: ""
+      t.string :last_name,          null: false, default: ""
+>>>>>>> 7bcf9a1... Devise implemented
 =======
       t.string :first_name,         null:false, default: ""
       t.string :last_name,          null: false, default: ""
@@ -43,7 +53,10 @@ class DeviseCreateUsers < ActiveRecord::Migration[5.1]
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 7bcf9a1... Devise implemented
 =======
 >>>>>>> 7bcf9a1... Devise implemented
       ## Confirmable
@@ -59,6 +72,9 @@ class DeviseCreateUsers < ActiveRecord::Migration[5.1]
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 7bcf9a1... Devise implemented
+=======
 >>>>>>> 7bcf9a1... Devise implemented
 =======
 >>>>>>> 7bcf9a1... Devise implemented
@@ -69,6 +85,11 @@ class DeviseCreateUsers < ActiveRecord::Migration[5.1]
     add_index :users, :reset_password_token, unique: true
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    # add_index :users, :confirmation_token,   unique: true
+    # add_index :users, :unlock_token,         unique: true
+>>>>>>> 7bcf9a1... Devise implemented
 =======
     # add_index :users, :confirmation_token,   unique: true
     # add_index :users, :unlock_token,         unique: true
