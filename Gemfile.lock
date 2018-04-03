@@ -43,9 +43,13 @@ GEM
     arel (8.0.0)
     ast (2.4.0)
 <<<<<<< HEAD
+<<<<<<< HEAD
     bcrypt (3.1.11)
 =======
 >>>>>>> 1f674a3... Added rubocop to project
+=======
+    bcrypt (3.1.11)
+>>>>>>> 7bcf9a1... Devise implemented
     bindex (0.5.0)
     builder (3.2.3)
     byebug (10.0.1)
@@ -101,9 +105,13 @@ GEM
     nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
 <<<<<<< HEAD
+<<<<<<< HEAD
     orm_adapter (0.5.0)
 =======
 >>>>>>> 1f674a3... Added rubocop to project
+=======
+    orm_adapter (0.5.0)
+>>>>>>> 7bcf9a1... Devise implemented
     parallel (1.12.1)
     parser (2.5.0.5)
       ast (~> 2.4.0)
@@ -143,11 +151,17 @@ GEM
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
 <<<<<<< HEAD
+<<<<<<< HEAD
     responders (2.4.0)
       actionpack (>= 4.2.0, < 5.3)
       railties (>= 4.2.0, < 5.3)
 =======
 >>>>>>> 1f674a3... Added rubocop to project
+=======
+    responders (2.4.0)
+      actionpack (>= 4.2.0, < 5.3)
+      railties (>= 4.2.0, < 5.3)
+>>>>>>> 7bcf9a1... Devise implemented
     rubocop (0.54.0)
       parallel (~> 1.10)
       parser (>= 2.5)
@@ -196,10 +210,15 @@ GEM
       execjs (>= 0.3.0, < 3)
     unicode-display_width (1.3.0)
 <<<<<<< HEAD
+<<<<<<< HEAD
     warden (1.2.7)
       rack (>= 1.0)
 =======
 >>>>>>> 1f674a3... Added rubocop to project
+=======
+    warden (1.2.7)
+      rack (>= 1.0)
+>>>>>>> 7bcf9a1... Devise implemented
     web-console (3.5.1)
       actionview (>= 5.0)
       activemodel (>= 5.0)

@@ -34,9 +34,13 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 gem 'rubocop', '~> 0.54.0', require: false
 <<<<<<< HEAD
+<<<<<<< HEAD
 gem 'devise'
 =======
 >>>>>>> 1f674a3... Added rubocop to project
+=======
+gem 'devise'
+>>>>>>> 7bcf9a1... Devise implemented
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
