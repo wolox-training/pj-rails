@@ -85,11 +85,17 @@ GEM
       responders
       warden (~> 1.2.3)
 <<<<<<< HEAD
+<<<<<<< HEAD
     devise_token_auth (0.1.43)
       devise (> 3.5.2, < 4.5)
       rails (< 6)
 =======
 >>>>>>> 7bcf9a1... Devise implemented
+=======
+    devise_token_auth (0.1.43)
+      devise (> 3.5.2, < 4.5)
+      rails (< 6)
+>>>>>>> 9a9b2e1... implemeneted devise-token-auth
     erubi (1.7.1)
     execjs (2.7.0)
     ffi (1.9.23)
@@ -123,6 +129,7 @@ GEM
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     orm_adapter (0.5.0)
 =======
 >>>>>>> 1f674a3... Added rubocop to project
@@ -137,6 +144,11 @@ GEM
 =======
 >>>>>>> 1f674a3... Added rubocop to project
 =======
+=======
+    omniauth (1.8.1)
+      hashie (>= 3.4.6, < 3.6.0)
+      rack (>= 1.6.2, < 3)
+>>>>>>> 9a9b2e1... implemeneted devise-token-auth
     orm_adapter (0.5.0)
 >>>>>>> 7bcf9a1... Devise implemented
     parallel (1.12.1)
@@ -283,9 +295,13 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   devise
 <<<<<<< HEAD
+<<<<<<< HEAD
   devise_token_auth
 =======
 >>>>>>> 7bcf9a1... Devise implemented
+=======
+  devise_token_auth
+>>>>>>> 9a9b2e1... implemeneted devise-token-auth
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   omniauth
