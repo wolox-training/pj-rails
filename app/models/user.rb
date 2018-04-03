@@ -1,14 +1,18 @@
 class User < ApplicationRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
   validates :first_name, :last_name, presence: true
 =======
+=======
+>>>>>>> 7bcf9a1... Devise implemented
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
+<<<<<<< HEAD
 >>>>>>> 7bcf9a1... Devise implemented
 =======
   # Include default devise modules.
@@ -16,4 +20,6 @@ class User < ApplicationRecord
          :validatable
   include DeviseTokenAuth::Concerns::User
 >>>>>>> 9a9b2e1... implemeneted devise-token-auth
+=======
+>>>>>>> 7bcf9a1... Devise implemented
 end
