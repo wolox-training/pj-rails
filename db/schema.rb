@@ -9,6 +9,10 @@
 # you'll amass, the slower it'll run and the greater likelihood for issues).
 #
 # It's strongly recommended that you check this file into your version control system.
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9a9b2e1... implemeneted devise-token-auth
 ActiveRecord::Schema.define(version: 20180403183245) do
 
   # These are extensions that must be enabled in order to support this database

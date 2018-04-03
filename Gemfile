@@ -38,6 +38,7 @@ gem 'rubocop', '~> 0.54.0', require: false
 gem 'devise'
 gem 'devise_token_auth'
 gem 'omniauth'
+<<<<<<< HEAD
 gem 'devise'
 gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
 =======
@@ -45,6 +46,8 @@ gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
 =======
 gem 'devise'
 >>>>>>> 7bcf9a1... Devise implemented
+=======
+>>>>>>> 9a9b2e1... implemeneted devise-token-auth
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
