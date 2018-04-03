@@ -15,6 +15,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20180403183245) do
 =======
 ActiveRecord::Schema.define(version: 20180403161130) do
@@ -31,6 +32,9 @@ ActiveRecord::Schema.define(version: 20180403161130) do
 =======
 ActiveRecord::Schema.define(version: 20180403183245) do
 >>>>>>> 9a9b2e1... implemeneted devise-token-auth
+=======
+ActiveRecord::Schema.define(version: 20180403202736) do
+>>>>>>> cc20dd3... Added book model
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
