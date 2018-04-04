@@ -49,9 +49,13 @@ group :development, :test do
   gem 'selenium-webdriver'
   gem 'rspec-rails', '~> 3.7'
 <<<<<<< HEAD
+<<<<<<< HEAD
   gem 'factory_bot_rails', '~> 4.0'
 =======
 >>>>>>> 207b6f4... WIP
+=======
+  gem 'factory_bot_rails', '~> 4.0'
+>>>>>>> 7ff53b0... Book model tests
 end
 
 group :development do
