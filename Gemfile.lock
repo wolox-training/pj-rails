@@ -94,7 +94,11 @@ GEM
     devise_token_auth (0.1.43)
       devise (> 3.5.2, < 4.5)
       rails (< 6)
+<<<<<<< HEAD
 >>>>>>> 9a9b2e1... implemeneted devise-token-auth
+=======
+    diff-lcs (1.3)
+>>>>>>> 207b6f4... WIP
     erubi (1.7.1)
     execjs (2.7.0)
     factory_bot (4.8.2)
@@ -180,6 +184,9 @@ GEM
       actionpack (>= 4.2.0, < 5.3)
       railties (>= 4.2.0, < 5.3)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207b6f4... WIP
     rspec-core (3.7.1)
       rspec-support (~> 3.7.0)
     rspec-expectations (3.7.0)
@@ -197,8 +204,11 @@ GEM
       rspec-mocks (~> 3.7.0)
       rspec-support (~> 3.7.0)
     rspec-support (3.7.1)
+<<<<<<< HEAD
 =======
 >>>>>>> 7bcf9a1... Devise implemented
+=======
+>>>>>>> 207b6f4... WIP
     rubocop (0.54.0)
       parallel (~> 1.10)
       parser (>= 2.5)

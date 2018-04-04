@@ -56,7 +56,10 @@ group :development, :test do
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
   gem 'rspec-rails', '~> 3.7'
+<<<<<<< HEAD
   gem 'factory_bot_rails', '~> 4.0'
+=======
+>>>>>>> 207b6f4... WIP
 end
 
 group :development do
