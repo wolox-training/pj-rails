@@ -69,7 +69,12 @@ gem 'devise'
 =======
 gem 'devise_token_auth'
 gem 'omniauth'
+<<<<<<< HEAD
 >>>>>>> 9a9b2e1... implemeneted devise-token-auth
+=======
+gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
+
+>>>>>>> 0282827... removed commented code
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

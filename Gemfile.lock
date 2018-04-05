@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/stympy/faker.git
+  revision: f8e1b81f8da82ea9eb88c4939a3a6801f97e5ac1
+  branch: master
+  specs:
+    faker (1.8.7)
+      i18n (>= 0.7)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -391,7 +399,11 @@ DEPENDENCIES
 >>>>>>> 9a9b2e1... implemeneted devise-token-auth
 =======
   factory_bot_rails (~> 4.0)
+<<<<<<< HEAD
 >>>>>>> 7ff53b0... Book model tests
+=======
+  faker!
+>>>>>>> 0282827... removed commented code
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   omniauth
