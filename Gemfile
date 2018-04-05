@@ -33,48 +33,11 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem 'rubocop', '~> 0.54.0', require: false
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 gem 'devise'
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 1f674a3... Added rubocop to project
-=======
-gem 'devise'
->>>>>>> 7bcf9a1... Devise implemented
-=======
 gem 'devise_token_auth'
 gem 'omniauth'
->>>>>>> 9a9b2e1... implemeneted devise-token-auth
-=======
->>>>>>> 1f674a3... Added rubocop to project
-=======
 gem 'devise'
->>>>>>> 7bcf9a1... Devise implemented
-=======
-gem 'devise_token_auth'
-gem 'omniauth'
->>>>>>> 9a9b2e1... implemeneted devise-token-auth
-=======
->>>>>>> 1f674a3... Added rubocop to project
-=======
-gem 'devise'
->>>>>>> 7bcf9a1... Devise implemented
-=======
-gem 'devise_token_auth'
-gem 'omniauth'
-<<<<<<< HEAD
->>>>>>> 9a9b2e1... implemeneted devise-token-auth
-=======
 gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
-
->>>>>>> 0282827... removed commented code
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
