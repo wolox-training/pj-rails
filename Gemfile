@@ -43,6 +43,8 @@ gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
 >>>>>>> 9a9b2e1... implemeneted devise-token-auth
 =======
 gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
+gem 'active_model_serializers', '~> 0.10.0'
+gem 'wor-paginate'
 
 >>>>>>> 0282827... removed commented code
 
