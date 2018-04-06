@@ -263,14 +263,7 @@ DEPENDENCIES
   devise
   devise_token_auth
   factory_bot_rails (~> 4.0)
-<<<<<<< HEAD
-<<<<<<< HEAD
   faker!
-=======
->>>>>>> 7ff53b0... Book model tests
-=======
-  faker!
->>>>>>> 0282827... removed commented code
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   omniauth

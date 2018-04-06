@@ -36,17 +36,9 @@ gem 'rubocop', '~> 0.54.0', require: false
 gem 'devise'
 gem 'devise_token_auth'
 gem 'omniauth'
-<<<<<<< HEAD
-<<<<<<< HEAD
-gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
-=======
->>>>>>> 9a9b2e1... implemeneted devise-token-auth
-=======
 gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
 gem 'active_model_serializers', '~> 0.10.0'
 gem 'wor-paginate'
-
->>>>>>> 0282827... removed commented code
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -55,14 +47,7 @@ group :development, :test do
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
   gem 'rspec-rails', '~> 3.7'
-<<<<<<< HEAD
-<<<<<<< HEAD
   gem 'factory_bot_rails', '~> 4.0'
-=======
->>>>>>> 207b6f4... WIP
-=======
-  gem 'factory_bot_rails', '~> 4.0'
->>>>>>> 7ff53b0... Book model tests
 end
 
 group :development do
