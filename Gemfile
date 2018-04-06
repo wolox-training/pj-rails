@@ -33,21 +33,10 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem 'rubocop', '~> 0.54.0', require: false
-<<<<<<< HEAD
-<<<<<<< HEAD
 gem 'devise'
 gem 'devise_token_auth'
 gem 'omniauth'
-<<<<<<< HEAD
-gem 'devise'
 gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
-=======
->>>>>>> 1f674a3... Added rubocop to project
-=======
-gem 'devise'
->>>>>>> 7bcf9a1... Devise implemented
-=======
->>>>>>> 9a9b2e1... implemeneted devise-token-auth
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -56,14 +45,7 @@ group :development, :test do
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
   gem 'rspec-rails', '~> 3.7'
-<<<<<<< HEAD
-<<<<<<< HEAD
   gem 'factory_bot_rails', '~> 4.0'
-=======
->>>>>>> 207b6f4... WIP
-=======
-  gem 'factory_bot_rails', '~> 4.0'
->>>>>>> 7ff53b0... Book model tests
 end
 
 group :development do
