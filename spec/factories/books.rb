@@ -8,5 +8,6 @@ FactoryBot.define do
     image      { Faker::String.random(8) }
     title      { Faker::Lovecraft.tome }
     publisher  { Faker::Educator.university }
+    
   end
 end
