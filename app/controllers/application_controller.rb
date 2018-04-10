@@ -1,3 +1,5 @@
 class ApplicationController < ActionController::Base
-  protect_from_forgery with: :exception
+  include DeviseTokenAuth::Concerns::SetUserByToken
+  ## TODO implement authentication
+  # protect_from_forgery with: :exception
 end
