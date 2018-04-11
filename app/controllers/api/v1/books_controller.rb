@@ -1,6 +1,6 @@
 module Api
   module V1
-    class BooksController < ApplicationController
+    class ApiController < ApplicationController
       include Wor::Paginate
 
       def index
