@@ -36,7 +36,6 @@ gem 'rubocop', '~> 0.54.0', require: false
 gem 'devise'
 gem 'devise_token_auth'
 gem 'omniauth'
-gem 'devise'
 gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
 
 group :development, :test do
