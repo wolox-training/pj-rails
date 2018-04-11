@@ -1,6 +1,6 @@
 module Api
   module V1
-    class RentsController < ApplicationController
+    class RentsController < ApiController
       include Wor::Paginate
 
       def index
