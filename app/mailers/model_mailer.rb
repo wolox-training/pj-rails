@@ -7,6 +7,7 @@ class ModelMailer < ApplicationMailer
   def new_record_notification(record)
     @greeting = 'Hi'
     @record = record
+    @user = record.user
     mail to: 'pedro.jara@wolox.com.ar', subject: 'Saludos desde tu APP'
   end
 end

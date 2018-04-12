@@ -3,6 +3,7 @@ class DeviseTokenAuthCreateUsers < ActiveRecord::Migration[5.1]
     ## Required
     add_column :users, :provider, :string, :null => false, :default => "email"
     add_column :users, :uid, :string, :null => false, :default => ""
+    add_column :users, :locale, :string, :null => false, :default => "en"
 
     ## Recoverable
     add_column :users, :allow_password_change, :boolean, :default => false
