@@ -84,3 +84,4 @@ test:
 production:
   <<: *default
   database: wbooks-api_production
+  url: <%= ENV['DATABASE_URL'] %>
