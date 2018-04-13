@@ -86,6 +86,10 @@ ActiveRecord::Schema.define(version: 20180412184656) do
     t.string "provider", default: "email", null: false
     t.string "uid", default: "", null: false
     t.string "locale", default: "en", null: false
+    t.string "confirmation_token"
+    t.datetime "confirmed_at"
+    t.datetime "confirmation_sent_at"
+    t.string "unconfirmed_email"
     t.boolean "allow_password_change", default: false
     t.string "image"
     t.json "tokens"
