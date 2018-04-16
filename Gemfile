@@ -39,6 +39,9 @@ gem 'omniauth'
 gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
 gem 'active_model_serializers', '~> 0.10.0'
 gem 'wor-paginate'
+gem 'dotenv-rails'
+gem 'sidekiq'
+gem 'activeadmin', github: 'activeadmin'
 gem 'pundit'
 
 group :development, :test do
@@ -49,9 +52,6 @@ group :development, :test do
   gem 'selenium-webdriver'
   gem 'rspec-rails', '~> 3.7'
   gem 'factory_bot_rails', '~> 4.0'
-  gem 'dotenv-rails'
-  gem 'sidekiq'
-  gem 'activeadmin', github: 'activeadmin'
 end
 
 group :development do
