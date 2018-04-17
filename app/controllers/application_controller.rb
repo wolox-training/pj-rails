@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::Base
-  #include Pundit
+  include Pundit
   ## TODO implement authentication
-  # protect_from_forgery with: :exception
+  protect_from_forgery with: :null_session
 end
