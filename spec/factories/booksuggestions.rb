@@ -1,5 +1,5 @@
 FactoryBot.define do
-  factory :booksuggestion do
+  factory :book_suggestion do
     editorial { Faker::Educator.university }
     price     { Faker::Number.number(3) }
     author    { Faker::Name.name }
