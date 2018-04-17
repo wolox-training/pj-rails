@@ -9,7 +9,10 @@ module Api
 
       def create
         rent = Rent.new(create_params)
-        return render json: rent, status: :created if rent.save
+        if rent.save
+          ModelMailer.new_record_notification(rent).deliver
+          return render json: rent, status: :created
+        end
         render json: { errors: rent.errors }, status: :bad_request
       end
 
