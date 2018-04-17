@@ -55,6 +55,7 @@ ActiveRecord::Schema.define(version: 20180405162520) do
     t.datetime "updated_at", null: false
     t.string "provider", default: "email", null: false
     t.string "uid", default: "", null: false
+    t.string "locale", default: "en", null: false
     t.boolean "allow_password_change", default: false
     t.string "image"
     t.json "tokens"
