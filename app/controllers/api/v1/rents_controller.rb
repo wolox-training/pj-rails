@@ -2,7 +2,7 @@ module Api
   module V1
     class RentsController < ApiController
       include Wor::Paginate
-      #before_action :authenticate_user!, only: [:index]
+      before_action :authenticate_user!, only: [:index]
 
       def index
         render_paginated policy_scope(Rent)
