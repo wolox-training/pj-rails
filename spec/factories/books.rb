@@ -5,7 +5,7 @@ FactoryBot.define do
     genre      { Faker::Educator.course }
     year       { Faker::Date.backward(14) }
     author     { Faker::Name.name }
-    image      { Faker::String.random(8) }
+    image      { Faker::Internet.url }
     title      { Faker::Lovecraft.tome }
     publisher  { Faker::Educator.university }
   end
