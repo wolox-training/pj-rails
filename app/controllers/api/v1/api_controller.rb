@@ -1,6 +1,7 @@
 module Api
   module V1
     class ApiController < ApplicationController
+      include DeviseTokenAuth::Concerns::SetUserByToken
       include Wor::Paginate
 
       rescue_from ActiveRecord::RecordNotFound, with: :render_not_found

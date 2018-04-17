@@ -50,6 +50,7 @@ group :development, :test do
   gem 'factory_bot_rails', '~> 4.0'
   gem 'dotenv-rails'
   gem 'sidekiq'
+  gem 'activeadmin', github: 'activeadmin'
 end
 
 group :development do
