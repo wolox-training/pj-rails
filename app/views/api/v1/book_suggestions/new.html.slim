@@ -2,7 +2,6 @@ doctype html
 html
   head
     title Slim BookSuggestions
-
   body
     h1 Book Suggestions
 
@@ -10,7 +9,7 @@ html
       p Here you can view your Book Suggestions
 
     - if BookSuggestion.any?
-      table#BookSuggestion
+      table#tableBookSuggestion
         thead
           tr
             th Title
@@ -23,7 +22,7 @@ html
       p No Book Suggestions found. Please add some.
         Thank you!
 
-    = form_for :book_suggestion, url: { action: "create" } do |f|
+    = form_for :book_suggestion, url: { action: "create" }, html: { id: "suggestionForm" } do |f|
       = f.text_field :title
       = f.label "Titulo"
       = f.text_field :author
