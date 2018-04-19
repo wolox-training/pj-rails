@@ -15,7 +15,7 @@ DeviseTokenAuth.setup do |config|
 
   # Sometimes it's necessary to make several requests to the API at the same
   # time. In this case, each request in the batch will need to share the same
-  # auth token. This setting determines how far apart the requests can be while
+  # auth token. This setting detsermines how far apart the requests can be while
   # still using the same auth token.
   # config.batch_request_buffer_throttle = 5.seconds
 
