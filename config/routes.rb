@@ -6,7 +6,11 @@ Rails.application.routes.draw do
   resources :posts
   namespace :api do
     namespace :v1 do
-        resources :books, only: [:index, :show]
+        resources :books, only: [:index, :show] do
+          collection do
+            get '/info', to: "books#info"
+          end
+        end
         resources :rents, only: [:index, :create]
         resources :book_suggestions, only: [:index, :create, :new]
     end
