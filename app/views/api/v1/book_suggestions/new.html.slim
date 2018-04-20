@@ -1,0 +1,34 @@
+doctype html
+html
+  head
+    title Slim BookSuggestions
+  body
+    h1 Book Suggestions
+
+    #content
+      p Here you can view your Book Suggestions
+
+    - if BookSuggestion.any?
+      table#tableBookSuggestion
+        thead
+          tr
+            th Title
+            th Link
+        - for book_suggestion in @book_suggestions
+          tr
+            td.title = book_suggestion.title
+            td.link = book_suggestion.link
+    - else
+      p No Book Suggestions found. Please add some.
+        Thank you!
+
+    = form_for :book_suggestion, url: { action: "create" }, html: { id: "suggestionForm" } do |f|
+      = f.text_field :title
+      = f.label "Titulo"
+      = f.text_field :author
+      = f.label "Author"
+      = f.select :user_id, @users
+      = f.label "User"
+      = f.text_field :link
+      = f.label "Link"
+      = submit_tag 'Create'

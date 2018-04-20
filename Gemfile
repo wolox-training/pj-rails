@@ -42,6 +42,8 @@ gem 'wor-paginate'
 gem 'sidekiq'
 gem 'activeadmin', github: 'activeadmin'
 gem 'pundit'
+gem 'slim'
+gem 'jquery-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
