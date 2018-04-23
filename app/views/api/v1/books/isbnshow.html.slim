@@ -1,0 +1,18 @@
+doctype html
+html
+  head
+    title Slim Books
+  body
+    h1 Books
+
+    #content
+      p Here you can find books through their ISBN
+
+      = form_for :book_suggestion, url: { action: "info" }, html: { id: "bookForm" } do |f|
+        = f.label "ISBN"
+        = f.text_field :isbn
+        = submit_tag 'Find'
+
+      p#name
+      p#author
+      p#link

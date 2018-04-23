@@ -9,6 +9,7 @@ Rails.application.routes.draw do
         resources :books, only: [:index, :show] do
           collection do
             get '/info', to: "books#info"
+            get '/isbnshow', to: "books#isbnshow"
           end
         end
         resources :rents, only: [:index, :create]
