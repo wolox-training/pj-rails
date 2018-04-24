@@ -8,6 +8,6 @@ class ModelMailer < ApplicationMailer
     @greeting = 'Hi'
     @record = record
     @user = record.user
-    mail to: 'pedro.jara@wolox.com.ar', subject: 'Saludos desde tu APP'
+    mail to: 'pedro.jara@wolox.com.ar', subject: 'Books Rent'
   end
 end

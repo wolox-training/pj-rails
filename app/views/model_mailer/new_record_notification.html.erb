@@ -1,5 +1,5 @@
-<h1><%= I18n.t('hello', locale: @user.locale) %></h1>
+<p><span style="font-size: 18pt;"><%= I18n.t('hello', locale: @user.locale) + @user.first_name %><br /><br /></span></p>
 
-<p>
-  <%= I18n.t('mail_greeting', locale: @user.locale)%>
-</p>
+<p><strong><span style="font-size: 11pt;"> <%= I18n.t('mail_greeting', locale: @user.locale)%> </span></strong></p>
+
+<p> <%= I18n.t('notify_rent', locale: @user.locale) %> </p>

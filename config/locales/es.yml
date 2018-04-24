@@ -1,3 +1,4 @@
 es:
-  hello: "Hola Mundo"
-  mail_greeting: "Este es tu saludo para emails en espaniol!"
+  hello: "Saludos "
+  mail_greeting: "Hola usuario, desde la aplicacion WBooks!"
+  notify_rent: "Has rentado un libro satisfactoriamente."
