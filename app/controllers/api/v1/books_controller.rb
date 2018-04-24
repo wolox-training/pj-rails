@@ -12,7 +12,8 @@ module Api
       end
 
       def info
-        render json: OpenLibraryService.new(isbn: params[:isbn]).book_info(params)
+        isbn = params[:isbn] ? params[:isbn] : params[:book_suggestion][:isbn]
+        render json: OpenLibraryService.new().book_info(isbn)
       end
 
       def isbnshow

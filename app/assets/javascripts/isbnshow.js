@@ -5,14 +5,16 @@ $( document ).ready(function() {
            type: "GET",
            url: url,
            data: $("#bookForm").serialize(),  // serializes the form's elements.
-           success: function(data)
+           success: function(response)
            {
-              alert("Book found"); // show response from the php script.
               debugger
+              name.text_field = response.title
+              link.text_field = response.image
+              alert("ISBN Book found"); // show response from the php script.
            },
-           error: function(data)
+           error: function(error)
            {
-              alert("Nothing found")
+              alert("Nothing found through ISBN")
            }
          });
    e.preventDefault(); // avoid to execute the actual submit of the form.
