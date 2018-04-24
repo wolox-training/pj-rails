@@ -4,12 +4,13 @@ $( document ).ready(function() {
     $.ajax({
            type: "GET",
            url: url,
-           data: $("#bookForm").serialize(),  // serializes the form's elements.
+           data: $("#bookForm").serialize(),
+           dataType: 'json',
            success: function(response)
            {
-              debugger
-              name.text_field = response.title
-              link.text_field = response.image
+              $("#link").text(response[Object.keys(response)[0]].url);
+              $("#name").text(response[Object.keys(response)[0]].title);
+              $("#author").text(response[Object.keys(response)[0]].authors[0].name);
               alert("ISBN Book found"); // show response from the php script.
            },
            error: function(error)
