@@ -30,6 +30,6 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Greetings!"
+  hello: "Greetings "
   mail_greeting: "Hello dear user, from the WBooks app!"
   notify_rent: "You have successfully rented a book from WBooks."
